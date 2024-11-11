@@ -99,37 +99,42 @@ body{
 }
 
 .icons a{
-  /* color: #e43939; */
+  color: #2d2f40;
   width: 80px;
   font-size: 40px;
   transition: .3s linear;
 }
 
-.fa-instagram{
+.fa-instagram:hover{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
 }
 
-.fa-spotify{
+.fa-spotify:hover{
   color: #1db954;
-}
-
-.fa-youtube{
-  color: #FF0000;
-}
-
-.fa-vk{
-  color: #4C75A3;
-}
-
-.fa-apple{
-  color: #000000;
-}
-
-.icons a:hover{
   transform: scale(1.1);
 }
+
+.fa-youtube:hover{
+  color: #FF0000;
+  transform: scale(1.1);
+}
+
+.fa-vk:hover{
+  color: #4C75A3;
+  transform: scale(1.1);
+}
+
+.fa-apple:hover{
+  color: #000000;
+  transform: scale(1.1);
+}
+
+/* .icons a:hover{
+  transform: scale(1.1);
+} */
 
 .contact-btn{
   display: inline-block;
