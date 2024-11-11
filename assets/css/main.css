@@ -15,13 +15,27 @@ body{
   justify-content: center;
 }
 
-.profile-card{
-  width: 400px;
-  text-align: center;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #9ecaed;
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  .profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #9ecaed;
+  }
 }
+
+@media only screen and (min-width: 1224px) {
+  .profile-card{
+    width: 90vw;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+}
+
 
 
 .card-header{
@@ -54,7 +68,7 @@ body{
   }
 }
 
-.pic img{
+.pic img{width
   display: block;
   width: 150px;
   height: 150px;
@@ -85,14 +99,36 @@ body{
 }
 
 .icons a{
-  color: #f2f2f2;
-  width: 56px;
-  font-size: 22px;
+  /* color: #e43939; */
+  width: 80px;
+  font-size: 40px;
   transition: .3s linear;
 }
 
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.fa-spotify{
+  color: #1db954;
+}
+
+.fa-youtube{
+  color: #FF0000;
+}
+
+.fa-vk{
+  color: #4C75A3;
+}
+
+.fa-apple{
+  color: #000000;
+}
+
 .icons a:hover{
-  color: #6C72CB;
+  transform: scale(1.1);
 }
 
 .contact-btn{
@@ -110,35 +146,11 @@ body{
   color: #f2f2f2;
 }
 
+
+
 .card-footer{
   background: #EEEDF0;
   padding: 60px 10px;
-}
-
-.numbers{
-  display: flex;
-  align-items: center;
-}
-
-.item{
-  flex: 1;
-  text-transform: uppercase;
-  font-size: 13px;
-  color: #CB69C1 ;
-  font-weight: 500;
-}
-
-.item span{
-  display: block;
-  color: #2c3a47;
-  font-size: 30px;
-}
-
-.border{
-  width: 2px;
-  height: 30px;
-/*   background: #bbb; */
-  background: linear-gradient(130deg, #74b9ff, #e66767);
 }
 
 .instagram-account{
