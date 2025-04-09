@@ -43,8 +43,8 @@ a {
 }
 
 .profile img {
-    width: 100px;
-    height: 100px;
+    width: 235px;
+    height: 235px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
@@ -57,7 +57,7 @@ a {
 
 h2 {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p {
