@@ -54,10 +54,13 @@ nav a {
 }
 
 .buttons {
+    display: flex;
     margin-top: 30px;
 }
 
 .buttons a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     border: 2px solid #000;
     padding: 10px 20px;
@@ -83,7 +86,7 @@ nav a {
     background: #000;
     border-radius: 50px;
     height: 100px;
-    width: 350px;
+    /* width: 350px; */
     display: flex;
     align-items: center;
     justify-content: center;
