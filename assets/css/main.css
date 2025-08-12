@@ -254,8 +254,24 @@ body {
 
 
 
+/* For mobile */
+@media screen and (max-width: 428px) {
+    .card .buttons a span{
+        display: none;
+    }
+}
 
-
+@media screen and (max-width: 767px)  and (min-width: 429px) {
+  .left {
+    flex: 1; /* back to normal */
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+  .right {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+}
 
 /* For tablets (portrait) */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
